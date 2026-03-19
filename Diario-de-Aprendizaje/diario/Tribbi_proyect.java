@@ -14,11 +14,9 @@ public class GuardarEntradas {
            writer.newLine(); 
            writer.write("Realizado: " + entrada.getRealizado()); 
            writer.newLine(); 
-           writer.write("Dificultades: " + entrada.getDificultades()); 
-           writer.newLine(); 
            writer.write("Herramientas: " + entrada.getHerramientas()); 
            writer.newLine(); 
-           System.out.println("Entrada guardada correctamente."); 
+           System.out.println("Entrada guardada sin problemas."); 
        } catch (IOException e) { 
            System.out.println("Error al guardar la entrada."); 
        } 
