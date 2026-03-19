@@ -9,7 +9,7 @@ public class DiarioEntrada {
    private String dificultades; 
    private String herramientas; 
  
-   // Constructor 
+  
    public DiarioEntrada(LocalDate fecha, String aprendido, String realizado, 
                         String dificultades, String herramientas) { 
        this.fecha = fecha; 
@@ -19,14 +19,13 @@ public class DiarioEntrada {
        this.herramientas = herramientas; 
    } 
  
-   // Getters 
+
    public LocalDate getFecha() { return fecha; } 
    public String getAprendido() { return aprendido; } 
    public String getRealizado() { return realizado; } 
    public String getDificultades() { return dificultades; } 
    public String getHerramientas() { return herramientas; } 
  
-   // Setters 
    public void setFecha(LocalDate fecha) { this.fecha = fecha; } 
    public void setAprendido(String aprendido) { this.aprendido = aprendido; } 
    public void setRealizado(String realizado) { this.realizado = realizado; } 
