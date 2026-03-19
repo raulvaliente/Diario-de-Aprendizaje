@@ -11,7 +11,7 @@ public class Autenticacion {
            System.out.println("Usuario registrado correctamente."); 
            return true; 
        } catch (IOException e) { 
-           System.out.println("Error al registrar usuario."); 
+           System.out.println("Error al registrar el usuario."); 
            return false; 
        } 
    } 
@@ -31,7 +31,7 @@ public class Autenticacion {
        } catch (IOException e) { 
            System.out.println("Error al leer usuarios."); 
        } 
-       System.out.println("Email o contraseña incorrectos."); 
+       System.out.println("Email/contraseña incorrectos."); 
        return false; 
    } 
 } 
